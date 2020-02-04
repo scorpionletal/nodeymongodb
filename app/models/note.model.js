@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
 const NoteSchema = mongoose.Schema({
-    title: String,
-    content: String
+    item: String,
+    "ESTACION A": String,
 }, {
     timestamps: true
 });
